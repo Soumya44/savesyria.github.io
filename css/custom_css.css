@@ -54,8 +54,8 @@ div.container article p {
     margin: 10px;
 }
 body{
-    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/-hnnJox/visualization-of-bright-dots-moving-around-a-dark-background_n1l_mmuu__F0000.png);
-/*    background-image: url("../assets/assassins_creed_revelations_ezio-wallpaper-1920x1080%20(1).jpg");*/
+    /*background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/-hnnJox/visualization-of-bright-dots-moving-around-a-dark-background_n1l_mmuu__F0000.png); */
+   background-image: url("../assets/background.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
