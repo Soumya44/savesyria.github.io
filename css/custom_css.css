@@ -86,20 +86,23 @@ body{
 
 }
 footer {
+    width: 100%;
     color: white;
-    padding-left: 20px;
+    padding: 20px;
     background-color: rgba(182, 15, 10, 0.986);
     border-radius: 5px;
-    height: 50px;
     align-content: center;
+    display: flex;
+    justify-content: space-between;
 
 }
-
-footer a {
-    position: relative;
-    left: 1110px;
-    top: 5px;
+footer > div {
+    width: 50%;
 }
+footer > div:last-child{
+    text-align: right;
+}
+
 
 .fa-facebook {
     background: #3B5998;
@@ -142,4 +145,20 @@ footer a {
     width: 30px;
     height: 30px;
     text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    footer > div {
+        width: 1000%;
+    }
+    footer > div:last-child{
+        text-align: left;
+    }    
 }
