@@ -13,5 +13,7 @@ A front end based project for `google udacity india scholarship front-end track`
 open a issue on the repository
 
 ## Contributors
+- Soumya ranjan behera
+- Saswat sarangi
 - Bhavya Chawla
 ( others add your names )
